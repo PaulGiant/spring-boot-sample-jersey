@@ -1,0 +1,13 @@
+---
+buildName: "spring-boot-sample-jersey"
+codeReview: false
+links:
+  Git: "https://github.com/PaulGiant/spring-boot-sample-jersey.git"
+  Job: "http://172.30.145.248:80/job/spring-boot-sample-jersey"
+  Production: "http://172.30.100.101:80/kubernetes/pods?namespace=default-prod"
+  Staging: "http://172.30.100.101:80/kubernetes/pods?namespace=default-staging"
+  Testing: "http://172.30.100.101:80/kubernetes/pods?namespace=default-testing"
+environments:
+  Testing: "default-testing"
+  Staging: "default-staging"
+  Production: "default-prod"
